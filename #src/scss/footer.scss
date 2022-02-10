@@ -1,0 +1,88 @@
+// Foter
+.footer {
+    background-image: url("../img/Backgroundlast.png");
+    height: 373px;
+    margin-top: 132px;
+    position: relative;;
+}
+.footer__inner {
+    display: flex;
+    width: 62%;
+    justify-content: space-between;
+    margin: 0 auto;
+    & .left {
+        margin-top: 105px;
+        & a:nth-child(1) {
+            font-size: 30px;
+            color: #ffffff;
+            font-weight: 900;
+            font-style: italic;
+            font-family: "Lato";
+        }
+        & p:nth-child(2) {
+            margin-top: 40px;
+            margin-bottom: 60px;
+            width: 470px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+        & a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+    }
+    & .right {
+        &__item {
+            display: flex;
+            justify-content: flex-end;
+            &-s {
+                display: flex;
+                flex-direction: column;
+                & a:nth-child(1) {
+                    margin-top: 105px;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                & a {
+                    text-decoration: none;
+                    width: 170px;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #fefefe;
+                    font-weight: 400;
+                    text-align: right;
+                }
+            }
+        }
+        & p {
+            margin-top: 60px;
+            padding-bottom: 60px;
+            font-size: 14px;
+            line-height: 22px;
+            color: #ffffff;
+            font-weight: 400;
+            text-align: right;
+        }
+    }
+}
+.btn-up {
+    position: absolute;
+    top: -35px;
+    right: 50px;
+    cursor: pointer;
+   :hover {
+    background-color: #76a9c0;
+   }
+    & ion-icon {
+        background-color: #206383;
+        color: white;
+        padding: 20px;
+        font-size: 32px;
+        border-radius: 50%;
+
+    }
+}

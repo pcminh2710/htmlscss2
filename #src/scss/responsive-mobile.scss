@@ -1,0 +1,434 @@
+//Điện thoại
+@media only screen and (max-width: 768px) {
+    .feature {
+        overflow: hidden;
+    }
+    //Header
+    .header {
+        width: 100%;
+        padding: 24px 38px;
+        & .menu {
+            display: none;
+        }
+        .mobile {
+            display: block;
+            & a {
+                font-size: 40px;
+                color: #ffffff;
+            }
+        }
+    }
+    .wrap__top {
+        height: 100%;
+    }
+    //content
+    .content__top {
+        flex-wrap: wrap;
+        width: 100%;
+        padding-bottom: 100px;
+        &__left {
+            width: 100%;
+            margin-top: 34px;
+            &__img {
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+                & a:first-child {
+                    margin-right: 0;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 35px;
+                    margin-bottom: 20px;
+                }
+                & a:nth-child(2),
+                p {
+                    display: none;
+                }
+            }
+            &__title {
+                margin-top: 28px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 332px;
+                font-size: 32px;
+                font-weight: 400;
+                text-align: center;
+            }
+            &__desc {
+                margin: 7px auto;
+                width: 332px;
+                font-size: 18px;
+                line-height: 26px;
+                font-weight: 400;
+                text-align: center;
+            }
+            &__btn {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 32px;
+
+                & button:first-child {
+                    margin-right: 0;
+                    width: 332px;
+                    height: 50px;
+                    border-radius: 25px;
+                    filter: drop-shadow(0px 10px 15px rgba(16, 19, 44, 0.1));
+                }
+                & button:last-child {
+                    display: none;
+                }
+                .btn-video {
+                    margin-top: 49px;
+                    display: flex;
+                    align-items: center;
+                    & a:last-child {
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                    }
+                    & span {
+                        margin-left: 10px;
+                        color: $textcolor;
+                        font-size: 14px;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+        &__right {
+            display: flex;
+            justify-content: center;
+            margin: 60px auto;
+            & img {
+                width: 350px;
+                height: 690px;
+            }
+        }
+    }
+    //feature
+    .feature {
+        width: 100%;
+        &__title {
+            padding-top: 94px;
+        }
+        &__content {
+            flex-wrap: wrap;
+            &__desc {
+                margin-top: 46px;
+            }
+            &__desc__top {
+                text-align: center;
+                & p:nth-child(1) {
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #00537c;
+                }
+                & p:nth-child(3) {
+                    width: 332px;
+                    height: 112px;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            &__desc__bottom {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                & img {
+                    margin: 14px 0;
+                }
+            }
+            &__img {
+                margin-top: -54px;
+                margin-left: 60px;
+                & img {
+                    height: 311px;
+                }
+            }
+        }
+    }
+    //ourclients-social
+    .clients__social {
+        margin-top: 46px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+
+        & a {
+            width: 170px;
+            height: 70px;
+            margin: 5px 5px;
+            display: none;
+        }
+        & a:nth-child(1),
+        a:nth-child(2),
+        a:nth-child(3),
+        a:nth-child(4),
+        a:nth-child(5),
+        a:nth-child(6) {
+            display: block;
+        }
+    }
+
+    //specifications
+    .speci {
+        margin-top: 184px;
+        &__list {
+            width: 80%;
+            & .speci__item {
+                padding-bottom: 33px;
+                & p:nth-child(3) {
+                    width: 100%;
+                }
+            }
+        }
+        .desc-support {
+            margin-top: -30px;
+        }
+        &-bt__list {
+            width: 80%;
+            & .speci-bt__item {
+                margin-bottom: 95px;
+                & img {
+                    margin-top: -65px;
+                    margin-left: -30px;
+                }
+            }
+        }
+    }
+    //pricing
+    .pricing {
+        margin-top: 0;
+        &__title {
+            width: 80%;
+        }
+        &__list {
+            width: 370px;
+        }
+        & h4 {
+            width: 331px;
+            height: 33px;
+            line-height: 20px;
+            margin: 40px 0;
+        }
+        &__list .slick-next {
+            position: absolute;
+            right: -10px;
+        }
+        &__list .slick-prev {
+            z-index: 1;
+            position: absolute;
+            left: -10px;
+        }
+    }
+    //review
+    .review__color1,
+    .review__color2 {
+        display: none;
+    }
+    .review__title {
+        padding: 91px;
+    }
+    .review__list {
+        margin-top: -42px;
+        & .slick-arrow {
+            margin-top: -100px;
+        }
+        & .slick-prev {
+            position: absolute;
+            left: 0;
+            z-index: 1;
+        }
+        & .slick-next {
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    //aboutus
+    .aboutus {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    .aboutus__info {
+        width: 100%;
+        height: 100%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        & p:nth-child(2) {
+            width: 332px;
+            height: 65px;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 700;
+            font-style: italic;
+        }
+        & p:nth-child(3),
+        p:nth-child(4) {
+            margin: 20px 0;
+            width: 332px;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+    }
+    .aboutus__img {
+        width: 100%;
+        &__slide img {
+            height: 320px;
+        }
+        &__bottom img:first-child,
+        img:last-child {
+            height: 200px;
+        }
+    }
+    //contact us
+    .contact {
+        width: 80%;
+        &__title {
+            margin-top: 53px;
+        }
+        &__send {
+            justify-content: center;
+            &__form {
+                & .form-control {
+                    width: 100%;
+                }
+                & .form-area {
+                    width: 100%;
+                }
+                & .form-btn {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    & button {
+                        margin-top: 20px;
+                        width: 100%;
+                    }
+                }
+            }
+            &__info {
+                display: none;
+            }
+        }
+    }
+    .input-top,
+    .input-bottom {
+        flex-wrap: wrap;
+        & input {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+    .input-full textarea {
+        width: 100%;
+    }
+    //footer
+    .footer {
+        height: 100%;
+    }
+    .footer__inner {
+        flex-wrap: wrap;
+        & .left {
+            & p:nth-child(2) {
+                width: 100%;
+            }
+        }
+        .right {
+            & p {
+                text-align: center;
+            }
+            &__item {
+                flex-wrap: wrap;
+                justify-content: center;
+                &-s a {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+// Điện thoại nhỏ
+
+@media only screen and (max-width: 400px) {
+    //content
+    .content__top {
+        padding-bottom: 0;
+        &__left {
+            &__title,
+            &__desc {
+                width: 100%;
+                padding: 0 20px;
+            }
+            &__btn button:first-child {
+                width: 190px;
+            }
+        }
+        &__right {
+            height: 100%;
+            & img {
+                width: 200px;
+                height: 370px;
+            }
+        }
+    }
+    //Feature
+    .feature__content {
+        &__desc__top {
+            & p:nth-child(3) {
+                width: 200px;
+            }
+        }
+        &__desc__bottom {
+            margin-top: 105px;
+        }
+        &__img img {
+            width: 340px;
+            height: 200px;
+        }
+    }
+    .pricing{
+        height: 100%;
+        &__list {
+            width: 85%;
+            &__item p {
+                font-size: 10px;
+                padding: 0 5px;
+            }
+        }
+        & h4 {
+            width: 90%;
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+   
+    // about us
+    .aboutus {
+        &__info {
+            & p:nth-child(2),
+            p:nth-child(3),
+            p:nth-child(4) {
+                padding: 0 10px;
+                width: 100%;
+            }
+        }
+    }
+    // contact us
+    .btn-send {
+        width: 100%;
+        flex-wrap: wrap;
+        & button {
+            width: 100%;
+        }
+    }
+    //footer
+    .left p:nth-child(3) {
+        margin-top: 129px;
+    }
+}

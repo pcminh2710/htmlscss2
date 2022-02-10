@@ -1,0 +1,36 @@
+//Our-clients
+.clients {
+    &__social {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 62%;
+        margin: 0 auto;
+        margin-top: 77px;
+        margin-bottom: 230px;
+    }
+    &__social a img {
+        width: 170px;
+        height: 70px;
+        border-radius: 4px;
+        margin: 0 15px;
+    }
+}
+//Slide social
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 27px;
+    color: blue;
+    cursor: pointer;
+}
+.slick-prev {
+    left: -143px;
+}
+.slick-next {
+    right: -143px;
+}

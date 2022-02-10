@@ -1,0 +1,24 @@
+@import 'reset.scss';
+@import 'variable.scss';
+//Title chung
+@import 'title.scss';
+//css
+@import 'class-mobile.scss';
+@import 'header.scss';
+@import 'content-top.scss';
+@import 'features.scss';
+@import 'our-clients.scss';
+@import 'specifications.scss';
+@import 'pricing.scss';
+@import 'reviews.scss';
+@import 'aboutus.scss';
+@import 'contact-us.scss';
+@import 'footer.scss';
+// Responsive
+@import 'responsive-pc.scss';
+@import 'responsive-tablet.scss';
+@import 'responsive-mobile.scss';
+
+html{
+    scroll-behavior: smooth;
+}

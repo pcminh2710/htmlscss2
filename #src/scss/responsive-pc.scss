@@ -1,0 +1,148 @@
+// Máy tính phân giải thấp
+@media (min-width: 1212px) and (max-width: 1890px) {
+    
+     .header, .content__top, .feature  {
+         width:  100%;
+         justify-content: space-around;
+     }
+     .speci__list, .speci-bt__list, .pricing__list {
+        width:  80%;
+        justify-content: space-around;
+     }
+     .feature__content {
+         justify-content: space-around;
+         width: 100%;
+     }
+    
+     
+    //contact
+    .contact {
+        width: 80%;
+    }
+    .input {
+        &-top,
+        &-bottom {
+            & input {
+                width: 42%;
+            }
+        }
+        &-full {
+            & textarea {
+                width: 90%;
+            }
+        }
+    }
+    //clients__social
+    .clients__social {
+        width: 75%;
+    }
+    //pricing
+    .pricing {
+        height: 100%;
+        &__list {
+            flex-wrap: wrap;
+            &__item {
+                width: 320px;
+            }
+            &-btn {
+                width: 60%;
+            }
+        }
+    }
+    // aboutus
+    .aboutus {
+        &__info {
+            padding-left: 100px;
+        }
+    }
+    .footer__inner {
+        width: 80%;
+    }
+}
+//Máy tính phân giải thấp
+@media(max-width: 1211px) {
+    .header, .content__top, .feature  {
+        width:  100%;
+        justify-content: space-around;
+        // margin: 0 50px;
+        
+    }
+    //content 
+    
+    //feature
+    .feature__content {
+        width: 100%;
+        padding-bottom: 186px;
+        justify-content: center;
+    }
+    .feature__content__img img {
+        margin-left: 20px;
+        width: 470px;
+        height: 270px;
+    }
+    //cliebts
+    .clients__social {
+        width: 90%;
+    }
+    //speci
+    .speci__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .speci-bt__list {
+        flex-wrap: wrap;
+        align-items: center;
+        & .speci-bt__item {
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+    }
+    .desc-support p:last-child {
+        width: 100%;
+    }
+    //social
+    .clients__social {
+        display: block;
+    }
+    //pricing
+    .pricing {
+        &__list {
+            justify-content: center;
+            width: 100%;
+            &__item {
+                width: 310px;
+                margin: 25px 10px;
+                & button {
+                    width: 80%;
+                }
+            }
+        }
+    }
+    //about us
+    .aboutus__info {
+        padding: 10px 20px;
+        & p:nth-child(2), 
+        p:nth-child(3),
+        p:nth-child(4) {
+            width: 100%;
+        }
+    }
+    
+    .contact {
+        width: 85%;
+      .check {
+          & input {
+              margin: 0 0px;
+          }
+          & label {
+              font-size: 12px;
+          }
+      }
+    }
+    .btn-video {
+        display: none;
+    }
+    .footer__inner {
+        width: 80%;
+    }
+}

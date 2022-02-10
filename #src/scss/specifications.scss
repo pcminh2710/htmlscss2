@@ -1,0 +1,70 @@
+// Specifications
+.speci {
+    &__title {
+        margin-bottom: 44px;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        width: 62%;
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-bottom: 75px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & img {
+            width: 110px;
+            height: 110px;
+            border-radius: 4px;
+        }
+        & p:nth-child(2) {
+            margin-top: 5px;
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+        }
+        & p:nth-child(3) {
+            margin-top: 25px;
+            width: 270px;
+            font-size: 15px;
+            line-height: 24px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    &-bt__list {
+        display: flex;
+        width: 62%;
+        margin: 0 auto;
+        justify-content: space-between;
+        & .speci-bt__item {
+            display: flex;
+            & img {
+                align-self: start;
+                width: 110px;
+                height: 110px;
+                border-radius: 4px;
+                margin-top: -34px;
+            }
+        }
+    }
+  
+}
+.desc {
+    &-support {
+        font-weight: 400;
+        color: #10132c;
+        & p:first-child {
+            font-size: 20px;
+            margin-top: -15px;
+        }
+        & p:last-child {
+            width: 280px;
+            font-size: 15px;
+            line-height: 24px;
+        }
+    }
+}

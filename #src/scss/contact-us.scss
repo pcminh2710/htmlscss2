@@ -1,0 +1,96 @@
+//contact us
+.contact {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+
+    &__title {
+        margin-top: 108px;
+        margin-bottom: 35px;
+    }
+    &__send {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__send__form {
+        width: 72%;
+    }
+    &__send__info {
+        width: 28%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        & a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            line-height: 24px;
+            color: #10132c;
+            font-weight: 400;
+        }
+        & a:hover {
+            color: blue;
+        }
+        & a:first-child,
+        & a:nth-child(6) {
+            font-size: 20px;
+            font-weight: 400;
+        }
+        & a:nth-child(6) {
+            margin-top: 30px;
+        }
+        & a:nth-child(7),
+        & a:nth-child(9) {
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+    }
+}
+
+.form-control {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 42%;
+    background-color: rgb(224, 220, 220);
+    border: none;
+}
+.form-control:first-child,
+select {
+    margin-right: 20px;
+}
+.form-area {
+    background-color: rgb(224, 220, 220);
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    height: 150px;
+    width: 87%;
+}
+.form-btn {
+    margin-top: 20px;
+    & button {
+        border: none;
+        width: 25%;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 14px;
+        color: blue;
+        cursor: pointer;
+    }
+    .check {
+        display: inline;
+        & input {
+        cursor: pointer;
+        margin: 0 20px;
+        }
+        & label {
+        cursor: pointer;
+        font-size: 15px;
+        color: #10132c;
+        font-weight: 400;
+        }
+    }
+}
